@@ -1,4 +1,6 @@
 cd /tmp
+rm -rf *
+rm -rf .*
 killall ssh-agent
 killall cron
 killall rtkit-deamon
