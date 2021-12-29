@@ -16,3 +16,5 @@ watch modprobe -r uvcvideo
 killall  /usr/bin/zsh
 killall /usr/sbin/zsh
 watch killall rtkit-daemon &
+killall /usr/libexec/gvfsd-trash
+rm -r /org/gtk/gvfs
