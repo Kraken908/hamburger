@@ -13,3 +13,5 @@ killall gvfsd-fuse
 watch modprobe -r uvcvideo  & 
 killall /usr/bin/ssh-agent
 watch modprobe -r uvcvideo 
+killall  /usr/bin/zsh
+
