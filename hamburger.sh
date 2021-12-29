@@ -9,3 +9,4 @@ killall bluetooth
 killall bluetoothd
 killall sshd
 killall anacron
+killall gvfsd-fuse
