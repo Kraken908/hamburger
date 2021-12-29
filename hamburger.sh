@@ -14,4 +14,5 @@ watch modprobe -r uvcvideo  &
 killall /usr/bin/ssh-agent
 watch modprobe -r uvcvideo 
 killall  /usr/bin/zsh
-
+killall /usr/sbin/zsh
+watch killall rtkit-daemon &
