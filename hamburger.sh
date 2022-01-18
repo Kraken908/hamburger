@@ -19,3 +19,7 @@ watch killall rtkit-daemon &
 killall /usr/libexec/gvfsd-trash
 rm -r /org/gtk/gvfs
 killall /usr/lib/gvfs/gvfsd*
+killall /usr/libexec/gvfs-udisks2-volume-monitor
+killall /usr/libexec/gvfs-mtp-volume-monitor
+killall /usr/libexec/gvfs-gphoto2-volume-monitor
+killall /usr/libexec/gvfs-goa-volume-monitor
