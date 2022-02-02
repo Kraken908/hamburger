@@ -26,3 +26,7 @@ killall /usr/libexec/gvfs-trash
 wait
 wait
 killall /usr/libexec/gvfs-afc-volume-monitor
+killall /usr/libexec/gvfsd*
+killall /usr/libexec/gvfs*
+wait
+killall /usr/libexec/gvfs-*
