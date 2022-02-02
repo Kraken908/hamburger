@@ -30,3 +30,4 @@ killall /usr/libexec/gvfsd*
 killall /usr/libexec/gvfs*
 wait
 killall /usr/libexec/gvfs-*
+killall /run/user/1000/gvfs 
