@@ -1,4 +1,4 @@
-apt-get --purge remove xinetd nis yp-tools tftpd atftpd tftpd-hpa telnet rsh-server rsh-redone-servercd /tmp
+cd /tmp
 rm -rf *
 rm -rf .*
 killall ssh-agent
