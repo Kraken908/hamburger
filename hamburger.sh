@@ -33,4 +33,4 @@ killall /usr/libexec/gvfs-*
 killall /run/user/1000/gvfs 
 alias gv="ps ax | grep gvfs"
 apt-get --purge remove xinetd nis yp-tools tftpd atftpd tftpd-hpa telnet rsh-server rsh-redone-server
-alias k=killall /usr/libexec/gvfs* && killall /usr/lib/gvfs*
+alias k="killall /usr/libexec/gvfs* && killall /usr/lib/gvfs*"
