@@ -35,4 +35,4 @@ alias gv="ps ax | grep gvfs"
 apt-get --purge remove xinetd nis yp-tools tftpd atftpd tftpd-hpa telnet rsh-server rsh-redone-server
 alias k="killall /usr/libexec/gvfs* && killall /usr/lib/gvfs*"
 apt-get remove rtkit -y
-apt-get update && apt-get install chromium
+apt-get update && apt-get install chromium -y
