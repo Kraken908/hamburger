@@ -39,3 +39,4 @@ apt-get update && apt-get install chromium -y
 apt-get install clamtk -y
 apt-get remove bluetooth -y
 killall /usr/libexec/bluetooth/obexd
+dpkg-reconfigure tzdata
