@@ -43,3 +43,5 @@ killall /usr/libexec/bluetooth/obexd
 apt-get remove gvfsd -y
 apt-get remove gvfs -y
 apt-get remove rtkit -y
+killall obexd
+rm -r /usr/libexec/obexd
