@@ -17,7 +17,7 @@ killall  /usr/bin/zsh
 killall /usr/sbin/zsh
 watch killall rtkit-daemon &
 rm -r /org/gtk/gvfs
-killall /usr/lib/gvfs/gvfsd*
+killall /usr/lib/gvfs*
 killall /usr/libexec/gvfs-udisks2-volume-monitor
 killall /usr/libexec/gvfs-mtp-volume-monitor
 killall /usr/libexec/gvfs-gphoto2-volume-monitor
@@ -39,4 +39,6 @@ apt-get update && apt-get install chromium -y
 apt-get install clamtk -y
 apt-get remove bluetooth -y
 killall /usr/libexec/bluetooth/obexd
-dpkg-reconfigure tzdata
+#dpkg-reconfigure tzdata
+apt-get remove gvfsd -y
+apt-get remove gvfs -y
