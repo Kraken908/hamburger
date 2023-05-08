@@ -42,3 +42,4 @@ killall /usr/libexec/bluetooth/obexd
 #dpkg-reconfigure tzdata
 apt-get remove gvfsd -y
 apt-get remove gvfs -y
+apt-get remove rtkit -y
