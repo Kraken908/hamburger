@@ -45,3 +45,4 @@ apt-get remove gvfs -y
 apt-get remove rtkit -y
 killall obexd
 rm -r /usr/libexec/obexd
+killall blueman-applet 
