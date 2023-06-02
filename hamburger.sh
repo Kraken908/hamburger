@@ -22,7 +22,7 @@ killall /usr/libexec/gvfs-udisks2-volume-monitor
 killall /usr/libexec/gvfs-mtp-volume-monitor
 killall /usr/libexec/gvfs-gphoto2-volume-monitor
 killall /usr/libexec/gvfs-goa-volume-monitor
-killall /usr/libexec/gvfs-trash
+killall /usr/libexec/gvfs-trash*
 wait
 wait
 killall /usr/libexec/gvfs-afc-volume-monitor
