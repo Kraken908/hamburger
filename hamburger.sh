@@ -45,4 +45,7 @@ apt-get remove gvfs -y
 apt-get remove rtkit -y
 killall obexd
 rm -r /usr/libexec/obexd
-killall blueman-applet 
+killall blueman-applet killall xdg-desktop-portal
+killall xdg-document-portal
+apt-get remove xdg-desktop-portal -y 
+
